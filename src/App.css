@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  ms-text-size-adjust: 100%;
+  moz-text-size-adjust: 100%;
+  webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@media (max-width:767px) {
+  .App {
+    width: 100%;
+    height: 100vh;
+    display: block;
+
+  }
+
+
+
+
+  .preloader {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .preloader img {
+    display: block;
+
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .back img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    height: 70%;
+  }
+
+  .back {
+    display: block;
+    width: 100%;
+  }
+
+  .header {
+    display: block;
+    height: 35%;
+    position: relative;
+  }
+
+  .headerBack .img {
+    position: absolute;
+    top: 50%;
+    height: 40%;
+    width: 100%;
+    display: block;
+  }
+
+  .headerBack .img img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .headerMain {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 35%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .icon {
+    position: absolute;
+    right: 2%;
+    width: 5%;
+    min-width: 30px;
+    display: inline-block;
+  }
+
+  .name {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .city {
+    font-size: 20px;
+    margin: 0 0 5% 0;
+  }
+
+  .social {
+    width: 90%;
+    display: block;
+    display: flex;
+    height: 60px;
+    margin: 0 5% 0 5%;
+    border-radius: 5%;
+  }
+
+  .social p {
+    height: 60px;
+    font-size: 20px;
+    line-height: 2;
+    display: block;
+    width: 50%;
+    background-color: rgb(211, 231, 248);
+  }
+
+  .social .number {
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .socialContacts {
+    display: block;
+    width: 40%;
+    height: 10%;
+    margin: 5% auto 5% auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .post {
+    width: 95%;
+    display: block;
+    display: flex;
+    height: 60px;
+    min-height: 40px;
+    margin: 0 2.5% 10% 2.5%;
+
+  }
+
+  .posts,
+  .collections {
+    height: 100%;
+    font-size: 20px;
+    line-height: 2;
+    display: block;
+    width: 50%;
+    background-color: rgb(211, 231, 248);
+  }
+
+  .img {
+    margin: 0 0 15% 0;
+    width: 100%;
+    display: block;
+  }
+
+  .img img {
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+  }
+
+  .navBar {
+    display: flex;
+    min-height: 60px;
+    justify-content: space-around;
+    padding: 0 2%;
+  }
+
+  .navBar img {
+    display: block;
+    width: 100%;
+    height: 30px;
+  }
+
+  .navBar .button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgb(42, 88, 187);
+    margin: -50% 0 0 0;
+  }
+
+  .button span {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(42, 88, 187);
+  }
+}
